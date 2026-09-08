@@ -1,0 +1,81 @@
+{
+  "cell": "bci_iv_2b_minimal_eeg_conformer_subject_specific_galea_seed2",
+  "n_subjects": 9,
+  "metrics_mean": {
+    "accuracy": 0.7898313492063492,
+    "macro_f1": 0.7736503482457826,
+    "cohen_kappa": 0.5796626984126985,
+    "mcc": 0.5989489141797332
+  },
+  "metrics_sd": {
+    "accuracy": 0.13610545290543877,
+    "macro_f1": 0.16365334884816593,
+    "cohen_kappa": 0.27221090581087753,
+    "mcc": 0.2560293275328141
+  },
+  "per_subject": [
+    {
+      "subject": "S01",
+      "accuracy": 0.69375,
+      "macro_f1": 0.6686950642325895,
+      "cohen_kappa": 0.38749999999999996,
+      "mcc": 0.4639803635691685
+    },
+    {
+      "subject": "S02",
+      "accuracy": 0.6428571428571429,
+      "macro_f1": 0.6361557253495504,
+      "cohen_kappa": 0.2857142857142857,
+      "mcc": 0.2968587840969636
+    },
+    {
+      "subject": "S03",
+      "accuracy": 0.828125,
+      "macro_f1": 0.827988936561147,
+      "cohen_kappa": 0.65625,
+      "mcc": 0.6572906782382442
+    },
+    {
+      "subject": "S04",
+      "accuracy": 0.9625,
+      "macro_f1": 0.9624985350990274,
+      "cohen_kappa": 0.925,
+      "mcc": 0.9250722740947307
+    },
+    {
+      "subject": "S05",
+      "accuracy": 0.928125,
+      "macro_f1": 0.9277517644864584,
+      "cohen_kappa": 0.85625,
+      "mcc": 0.8652363144144037
+    },
+    {
+      "subject": "S06",
+      "accuracy": 0.778125,
+      "macro_f1": 0.7736488169364881,
+      "cohen_kappa": 0.55625,
+      "mcc": 0.5796477520329941
+    },
+    {
+      "subject": "S07",
+      "accuracy": 0.89375,
+      "macro_f1": 0.8937458494472441,
+      "cohen_kappa": 0.7875,
+      "mcc": 0.7875615306482167
+    },
+    {
+      "subject": "S08",
+      "accuracy": 0.85625,
+      "macro_f1": 0.855889724310777,
+      "cohen_kappa": 0.7125,
+      "mcc": 0.7160894433721886
+    },
+    {
+      "subject": "S09",
+      "accuracy": 0.525,
+      "macro_f1": 0.41647871778876144,
+      "cohen_kappa": 0.050000000000000044,
+      "mcc": 0.0988030871506878
+    }
+  ]
+}

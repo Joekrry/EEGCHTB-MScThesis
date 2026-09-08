@@ -1,0 +1,13 @@
+services:
+  eegchtb:
+    build: .
+    image: eegchtb
+    gpus: all
+    environment:
+      BCI_IV_2A_DIR: /data/2a
+      BCI_IV_2B_DIR: /data/2b
+    volumes:
+      - ${BCI_IV_2A_DIR:-./eegchtb/data/bci_iv_2a}:/data/2a
+      - ${BCI_IV_2B_DIR:-./eegchtb/data/bci_iv_2b}:/data/2b
+      - ./runs:/workspace/runs
+    command: ["--dataset", "bci_iv_2a", "--preprocessing", "standard", "--protocol", "subject_specific", "--subject", "1", "--output-root", "runs"]

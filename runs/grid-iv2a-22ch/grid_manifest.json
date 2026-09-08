@@ -1,0 +1,38 @@
+{
+  "axes": {
+    "models": [
+      "eegnet",
+      "eeg_conformer",
+      "grf_net"
+    ],
+    "preprocessings": [
+      "minimal",
+      "standard",
+      "deep",
+      "maximum"
+    ],
+    "datasets": [
+      "bci_iv_2a"
+    ],
+    "evaluations": [
+      "subject_specific"
+    ],
+    "montages": [
+      "all"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "n_cells": 60,
+  "n_complete_cells": 60,
+  "n_pending_cells": 0,
+  "total_runs": 540,
+  "done_runs": 540,
+  "pending_runs": 0,
+  "pending_cells": []
+}

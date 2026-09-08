@@ -1,0 +1,6 @@
+models: [eegnet, eeg_conformer, grf_net]
+preprocessings: [minimal, standard, deep, maximum]
+datasets: [bci_iv_2a]
+evaluations: [subject_specific]
+montages: [galea]
+seeds: [0, 1, 2, 3, 4]

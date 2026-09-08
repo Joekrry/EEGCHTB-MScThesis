@@ -1,0 +1,26 @@
+# Maximum modulation: deep's band-pass, reference and resample, plus a single
+# montage-adaptive Hjorth surface Laplacian (spatial high-pass), then
+# standardise. The Laplacian is applied identically to every montage - it
+# re-references each channel against a weighted average of its k nearest
+# electrodes, capped per montage at k_eff = min(k, n_channels - 1), so the same
+# operation is well defined on the 3-channel (IV-2b), 4-channel (IV-2a Galea
+# subset) and 10-channel (Galea) montages with no channel-count threshold. This
+# is the most heavily shaped representation on the gradient.
+
+name: maximum
+steps:
+  - name: bandpass
+    params:
+      l_freq: 8.0
+      h_freq: 30.0
+  - name: rereference
+    params:
+      ref_channels: average
+  - name: resample
+    params:
+      sfreq: 125.0
+  - name: hjorth_laplacian
+    params:
+      k: 4
+      weighting: inverse_distance
+  - name: standardize

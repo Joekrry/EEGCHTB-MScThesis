@@ -1,0 +1,91 @@
+{
+  "protocol": {
+    "dataset": "bci_iv_2a",
+    "preprocessing": "standard",
+    "evaluation": "subject_specific (train session T, test session E)",
+    "model": "eegnet",
+    "kernel_length": "sfreq/2 (125 at 250 Hz)",
+    "seed": 2,
+    "epochs": 750,
+    "early_stopping": false,
+    "batch_size": 64,
+    "val_fraction": 0.0
+  },
+  "per_subject": [
+    {
+      "subject": 1,
+      "accuracy": 0.7951388888888888,
+      "macro_f1": 0.7921129691420131,
+      "cohen_kappa": 0.7268518518518519,
+      "mcc": 0.7289759703548574
+    },
+    {
+      "subject": 2,
+      "accuracy": 0.6284722222222222,
+      "macro_f1": 0.6227621010872542,
+      "cohen_kappa": 0.5046296296296297,
+      "mcc": 0.5100954044046848
+    },
+    {
+      "subject": 3,
+      "accuracy": 0.9027777777777778,
+      "macro_f1": 0.9033709860755896,
+      "cohen_kappa": 0.8703703703703703,
+      "mcc": 0.8734648803016681
+    },
+    {
+      "subject": 4,
+      "accuracy": 0.6354166666666666,
+      "macro_f1": 0.6312089422639457,
+      "cohen_kappa": 0.5138888888888888,
+      "mcc": 0.5200532363212557
+    },
+    {
+      "subject": 5,
+      "accuracy": 0.4756944444444444,
+      "macro_f1": 0.47624724170326194,
+      "cohen_kappa": 0.30092592592592593,
+      "mcc": 0.3014497312412741
+    },
+    {
+      "subject": 6,
+      "accuracy": 0.5798611111111112,
+      "macro_f1": 0.5756504615756819,
+      "cohen_kappa": 0.43981481481481477,
+      "mcc": 0.44566326055727246
+    },
+    {
+      "subject": 7,
+      "accuracy": 0.7847222222222222,
+      "macro_f1": 0.7835758609123434,
+      "cohen_kappa": 0.712962962962963,
+      "mcc": 0.7195986707656996
+    },
+    {
+      "subject": 8,
+      "accuracy": 0.8020833333333334,
+      "macro_f1": 0.7996745043660423,
+      "cohen_kappa": 0.7361111111111112,
+      "mcc": 0.7396148896587119
+    },
+    {
+      "subject": 9,
+      "accuracy": 0.8125,
+      "macro_f1": 0.8088915507423433,
+      "cohen_kappa": 0.75,
+      "mcc": 0.7524229564959299
+    }
+  ],
+  "mean": {
+    "accuracy": 0.7129629629629629,
+    "macro_f1": 0.710388290874275,
+    "cohen_kappa": 0.6172839506172839,
+    "mcc": 0.6212598889001504
+  },
+  "std": {
+    "accuracy": 0.1303612784866327,
+    "macro_f1": 0.130757033442219,
+    "cohen_kappa": 0.17381503798217696,
+    "mcc": 0.17378317473310134
+  }
+}

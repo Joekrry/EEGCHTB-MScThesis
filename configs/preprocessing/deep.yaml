@@ -1,0 +1,18 @@
+# Deep modulation: narrows to the mu+beta motor band (8-30 Hz), adds an average
+# reference (a spatial transform) and downsamples to 125 Hz (half the 250 Hz
+# source rate), then standardises. More of the signal has been reshaped or
+# removed than at "standard": tighter band, re-referenced, temporally decimated.
+
+name: deep
+steps:
+  - name: bandpass
+    params:
+      l_freq: 8.0
+      h_freq: 30.0
+  - name: rereference
+    params:
+      ref_channels: average
+  - name: resample
+    params:
+      sfreq: 125.0
+  - name: standardize

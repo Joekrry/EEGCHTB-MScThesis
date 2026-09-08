@@ -1,0 +1,81 @@
+{
+  "cell": "bci_iv_2b_standard_eegnet_subject_specific_galea_seed2",
+  "n_subjects": 9,
+  "metrics_mean": {
+    "accuracy": 0.8380952380952382,
+    "macro_f1": 0.8378970518554951,
+    "cohen_kappa": 0.6761904761904761,
+    "mcc": 0.678014034001766
+  },
+  "metrics_sd": {
+    "accuracy": 0.1265909945597558,
+    "macro_f1": 0.12661066486345177,
+    "cohen_kappa": 0.25318198911951156,
+    "mcc": 0.2534709683974743
+  },
+  "per_subject": [
+    {
+      "subject": "S01",
+      "accuracy": 0.815625,
+      "macro_f1": 0.814972706514176,
+      "cohen_kappa": 0.63125,
+      "mcc": 0.6357484382259103
+    },
+    {
+      "subject": "S02",
+      "accuracy": 0.5678571428571428,
+      "macro_f1": 0.5677192982456141,
+      "cohen_kappa": 0.13571428571428568,
+      "mcc": 0.13580092107945402
+    },
+    {
+      "subject": "S03",
+      "accuracy": 0.6875,
+      "macro_f1": 0.6875,
+      "cohen_kappa": 0.375,
+      "mcc": 0.375
+    },
+    {
+      "subject": "S04",
+      "accuracy": 0.975,
+      "macro_f1": 0.9749990233993515,
+      "cohen_kappa": 0.95,
+      "mcc": 0.9500742274486423
+    },
+    {
+      "subject": "S05",
+      "accuracy": 0.9625,
+      "macro_f1": 0.9624868117697628,
+      "cohen_kappa": 0.925,
+      "mcc": 0.9256510773887108
+    },
+    {
+      "subject": "S06",
+      "accuracy": 0.871875,
+      "macro_f1": 0.8713208250375151,
+      "cohen_kappa": 0.74375,
+      "mcc": 0.7502401009478984
+    },
+    {
+      "subject": "S07",
+      "accuracy": 0.8375,
+      "macro_f1": 0.8372711625723674,
+      "cohen_kappa": 0.675,
+      "mcc": 0.6769064842612652
+    },
+    {
+      "subject": "S08",
+      "accuracy": 0.940625,
+      "macro_f1": 0.9406197810354426,
+      "cohen_kappa": 0.88125,
+      "mcc": 0.8814049480832112
+    },
+    {
+      "subject": "S09",
+      "accuracy": 0.884375,
+      "macro_f1": 0.8841838581252262,
+      "cohen_kappa": 0.76875,
+      "mcc": 0.7713001085808013
+    }
+  ]
+}

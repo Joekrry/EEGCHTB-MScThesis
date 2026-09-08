@@ -1,0 +1,81 @@
+{
+  "cell": "bci_iv_2b_minimal_eeg_conformer_subject_specific_galea_seed4",
+  "n_subjects": 9,
+  "metrics_mean": {
+    "accuracy": 0.8361607142857144,
+    "macro_f1": 0.8329789209037836,
+    "cohen_kappa": 0.6723214285714285,
+    "mcc": 0.6830501069308307
+  },
+  "metrics_sd": {
+    "accuracy": 0.11356458063112328,
+    "macro_f1": 0.1176826172580272,
+    "cohen_kappa": 0.22712916126224658,
+    "mcc": 0.21666134808186882
+  },
+  "per_subject": [
+    {
+      "subject": "S01",
+      "accuracy": 0.696875,
+      "macro_f1": 0.6689101982912182,
+      "cohen_kappa": 0.39375000000000004,
+      "mcc": 0.4838858110576114
+    },
+    {
+      "subject": "S02",
+      "accuracy": 0.6785714285714286,
+      "macro_f1": 0.6785058175137784,
+      "cohen_kappa": 0.3571428571428571,
+      "mcc": 0.3572887190468934
+    },
+    {
+      "subject": "S03",
+      "accuracy": 0.846875,
+      "macro_f1": 0.8467537798453855,
+      "cohen_kappa": 0.69375,
+      "mcc": 0.6948501455661438
+    },
+    {
+      "subject": "S04",
+      "accuracy": 0.971875,
+      "macro_f1": 0.9718747253391147,
+      "cohen_kappa": 0.94375,
+      "mcc": 0.9437684331572231
+    },
+    {
+      "subject": "S05",
+      "accuracy": 0.94375,
+      "macro_f1": 0.9436421275096865,
+      "cohen_kappa": 0.8875,
+      "mcc": 0.8909170951054457
+    },
+    {
+      "subject": "S06",
+      "accuracy": 0.675,
+      "macro_f1": 0.6746823069403715,
+      "cohen_kappa": 0.35,
+      "mcc": 0.35068560300768375
+    },
+    {
+      "subject": "S07",
+      "accuracy": 0.921875,
+      "macro_f1": 0.9218559218559219,
+      "cohen_kappa": 0.84375,
+      "mcc": 0.8441622892989752
+    },
+    {
+      "subject": "S08",
+      "accuracy": 0.921875,
+      "macro_f1": 0.9218559218559219,
+      "cohen_kappa": 0.84375,
+      "mcc": 0.8441622892989752
+    },
+    {
+      "subject": "S09",
+      "accuracy": 0.86875,
+      "macro_f1": 0.8687294889826536,
+      "cohen_kappa": 0.7375,
+      "mcc": 0.7377305768385242
+    }
+  ]
+}

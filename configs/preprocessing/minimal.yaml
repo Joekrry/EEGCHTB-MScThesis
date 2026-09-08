@@ -1,0 +1,10 @@
+# Minimal modulation: the least processing that still yields trainable data.
+# A single broad band-pass (0.5-100 Hz) removes slow drift only; line noise and
+# higher frequencies are deliberately left in.
+
+name: minimal
+steps:
+  - name: bandpass
+    params:
+      l_freq: 0.5
+      h_freq: 100.0

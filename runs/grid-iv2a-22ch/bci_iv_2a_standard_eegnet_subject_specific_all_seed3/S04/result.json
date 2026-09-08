@@ -1,0 +1,25 @@
+{
+  "run_id": "S04",
+  "dataset": "bci_iv_2a",
+  "model": "eegnet",
+  "preprocessing": "standard",
+  "protocol": "subject_specific",
+  "seed": 3,
+  "fold": "4",
+  "metrics": {
+    "accuracy": 0.5763888888888888,
+    "macro_f1": 0.571436076061923,
+    "cohen_kappa": 0.43518518518518523,
+    "mcc": 0.4437419237137357
+  },
+  "n_trials": {
+    "train": 244,
+    "val": 44,
+    "test": 288
+  },
+  "timings": {
+    "train_seconds": 84.21575010000379
+  },
+  "config_fingerprint": "0a22932e50f338c8",
+  "created_at": "2026-08-21T18:56:10.186946+00:00"
+}

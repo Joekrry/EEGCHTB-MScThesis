@@ -1,0 +1,39 @@
+--extra-index-url https://download.pytorch.org/whl/cu130
+# Deep learning
+
+torch==2.12.1+cu130
+braindecode==1.5.2
+
+# EEG I/O and signal processing
+
+mne==1.12.1                # GDF reading + EEG-specific preprocessing
+
+# Eval and compute
+
+numpy==2.4.6
+scipy==1.17.1              # incl. scipy.io.loadmat for IV-2a/2b eval labels
+scikit-learn==1.9.0        # metrics: accuracy, F1, Cohen's kappa, MCC
+
+# Configuration and data handling
+
+PyYAML==6.0.3              # config files
+pandas==3.0.3              # results tables
+tqdm==4.68.3               # progress bars
+
+# Visualisation
+
+matplotlib==3.11.0
+
+# Analysis notebooks
+
+notebook==7.6.2            # notebooks/statistical_testing.ipynb
+nbconvert==7.17.1          # headless re-execution of the notebook
+
+# Testing
+
+pytest==9.1.0
+
+# editable, so "import eegchtb", the scripts under scripts/
+# and the eegchtb-run command all resolve from any directory.
+
+-e .

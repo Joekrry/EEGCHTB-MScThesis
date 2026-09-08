@@ -1,0 +1,25 @@
+{
+  "run_id": "S09",
+  "dataset": "bci_iv_2a",
+  "model": "grf_net",
+  "preprocessing": "standard",
+  "protocol": "subject_specific",
+  "seed": 0,
+  "fold": "9",
+  "metrics": {
+    "accuracy": 0.75,
+    "macro_f1": 0.7339094446378331,
+    "cohen_kappa": 0.6666666666666667,
+    "mcc": 0.6796499209912543
+  },
+  "n_trials": {
+    "train": 244,
+    "val": 44,
+    "test": 288
+  },
+  "timings": {
+    "train_seconds": 50.514102299988735
+  },
+  "config_fingerprint": "8cd10e8bf67224e7",
+  "created_at": "2026-08-22T04:50:15.132950+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "bci_iv_2a_standard_eeg_conformer_subject_specific_galea_S03",
+  "dataset": "bci_iv_2a",
+  "model": "eeg_conformer",
+  "preprocessing": "standard",
+  "protocol": "subject_specific",
+  "seed": 1,
+  "fold": "3",
+  "metrics": {
+    "accuracy": 0.7916666666666666,
+    "macro_f1": 0.7804521277481429,
+    "cohen_kappa": 0.7222222222222222,
+    "mcc": 0.7272786548781415
+  },
+  "n_trials": {
+    "train": 244,
+    "val": 44,
+    "test": 288
+  },
+  "timings": {
+    "train_seconds": 320.9187980749998
+  },
+  "config_fingerprint": "320250d9b7e6193f",
+  "created_at": "2026-07-29T20:27:49.068470+00:00"
+}

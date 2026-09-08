@@ -1,0 +1,13 @@
+# Galea cleanup: same 4-40 Hz motor-imagery band-pass and per-channel
+# standardisation as "standard", but with a robust outlier clip in between.
+
+name: galea_clean
+steps:
+  - name: bandpass
+    params:
+      l_freq: 4.0
+      h_freq: 40.0
+  - name: clip_outliers
+    params:
+      threshold: 8.0
+  - name: standardize

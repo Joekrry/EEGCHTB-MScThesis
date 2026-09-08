@@ -1,0 +1,25 @@
+{
+  "run_id": "S06",
+  "dataset": "bci_iv_2a",
+  "model": "eeg_conformer",
+  "preprocessing": "standard",
+  "protocol": "subject_specific",
+  "seed": 3,
+  "fold": "6",
+  "metrics": {
+    "accuracy": 0.3541666666666667,
+    "macro_f1": 0.35268469497877464,
+    "cohen_kappa": 0.13888888888888884,
+    "mcc": 0.13958622828317738
+  },
+  "n_trials": {
+    "train": 244,
+    "val": 44,
+    "test": 288
+  },
+  "timings": {
+    "train_seconds": 10.367672367000068
+  },
+  "config_fingerprint": "08d21e0902aaba91",
+  "created_at": "2026-08-18T08:03:24.735548+00:00"
+}

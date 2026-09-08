@@ -1,0 +1,92 @@
+{
+  "protocol": {
+    "dataset": "bci_iv_2a",
+    "preprocessing": "standard",
+    "evaluation": "subject_specific (train session T, test session E)",
+    "model": "eeg_conformer",
+    "training": "EEG-Conformer recipe: Adam(lr=2e-4, betas=(0.5, 0.999)), S&R augmentation",
+    "channels": "all",
+    "seed": 4,
+    "epochs": 2000,
+    "batch_size": 72,
+    "val_fraction": 0.0,
+    "model_selection": "best test-epoch accuracy, all of session T (reference protocol; selects on the test set - optimistic, not leakage-safe)"
+  },
+  "per_subject": [
+    {
+      "subject": 1,
+      "accuracy": 0.8854166666666666,
+      "macro_f1": 0.8856805133400878,
+      "cohen_kappa": 0.8472222222222222,
+      "mcc": 0.8473448214880723
+    },
+    {
+      "subject": 2,
+      "accuracy": 0.6076388888888888,
+      "macro_f1": 0.5983299664208594,
+      "cohen_kappa": 0.47685185185185186,
+      "mcc": 0.48190595529729524
+    },
+    {
+      "subject": 3,
+      "accuracy": 0.9270833333333334,
+      "macro_f1": 0.9270351282072293,
+      "cohen_kappa": 0.9027777777777778,
+      "mcc": 0.90306816273745
+    },
+    {
+      "subject": 4,
+      "accuracy": 0.8055555555555556,
+      "macro_f1": 0.8047809453935646,
+      "cohen_kappa": 0.7407407407407407,
+      "mcc": 0.7411101488854983
+    },
+    {
+      "subject": 5,
+      "accuracy": 0.6597222222222222,
+      "macro_f1": 0.6560368610943875,
+      "cohen_kappa": 0.5462962962962963,
+      "mcc": 0.5471501254697382
+    },
+    {
+      "subject": 6,
+      "accuracy": 0.6493055555555556,
+      "macro_f1": 0.6401380216118068,
+      "cohen_kappa": 0.5324074074074074,
+      "mcc": 0.5435029028963122
+    },
+    {
+      "subject": 7,
+      "accuracy": 0.9479166666666666,
+      "macro_f1": 0.9480540640757691,
+      "cohen_kappa": 0.9305555555555556,
+      "mcc": 0.9308249304506336
+    },
+    {
+      "subject": 8,
+      "accuracy": 0.8715277777777778,
+      "macro_f1": 0.8717923243199903,
+      "cohen_kappa": 0.8287037037037037,
+      "mcc": 0.8287969699273348
+    },
+    {
+      "subject": 9,
+      "accuracy": 0.8819444444444444,
+      "macro_f1": 0.8814595261149654,
+      "cohen_kappa": 0.8425925925925926,
+      "mcc": 0.8434743844555854
+    }
+  ],
+  "mean": {
+    "accuracy": 0.8040123456790123,
+    "macro_f1": 0.80147859450874,
+    "cohen_kappa": 0.7386831275720165,
+    "mcc": 0.7407976001786578
+  },
+  "std": {
+    "accuracy": 0.12312237694079534,
+    "macro_f1": 0.12655437719514606,
+    "cohen_kappa": 0.16416316925439375,
+    "mcc": 0.1617715696457198
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "bci_iv_2a_standard_eegnet_subject_specific_galea_S02",
+  "dataset": "bci_iv_2a",
+  "model": "eegnet",
+  "preprocessing": "standard",
+  "protocol": "subject_specific",
+  "seed": 2,
+  "fold": "2",
+  "metrics": {
+    "accuracy": 0.4861111111111111,
+    "macro_f1": 0.478389207486648,
+    "cohen_kappa": 0.31481481481481477,
+    "mcc": 0.3270005582669465
+  },
+  "n_trials": {
+    "train": 288,
+    "val": 0,
+    "test": 288
+  },
+  "timings": {
+    "train_seconds": 26.017585099999906
+  },
+  "config_fingerprint": "d6a0beba025f248c",
+  "created_at": "2026-07-29T09:24:37.582863+00:00"
+}

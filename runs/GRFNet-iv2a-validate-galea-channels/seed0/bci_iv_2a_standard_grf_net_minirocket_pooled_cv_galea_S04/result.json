@@ -1,0 +1,25 @@
+{
+  "run_id": "bci_iv_2a_standard_grf_net_minirocket_pooled_cv_galea_S04",
+  "dataset": "bci_iv_2a",
+  "model": "grf_net",
+  "preprocessing": "standard",
+  "protocol": "minirocket_pooled_cv",
+  "seed": 0,
+  "fold": "S04",
+  "metrics": {
+    "accuracy": 0.543463268365817,
+    "macro_f1": 0.5407764492131826,
+    "cohen_kappa": 0.39116988147330833,
+    "mcc": 0.3950734066613625
+  },
+  "n_trials": {
+    "train": 461,
+    "val": 0,
+    "test": 115
+  },
+  "timings": {
+    "train_seconds": 850.0
+  },
+  "config_fingerprint": "1058c239ab957e8a",
+  "created_at": "2026-08-17T11:45:42.451800+00:00"
+}

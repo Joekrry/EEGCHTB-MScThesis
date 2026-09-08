@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datasets
+# Anchored to repo root so it doesn't match the eegchtb/data/ package.
+/data/
+*.gdf
+*.mat
+*.edf
+
+# Cached / processed epochs and model artifacts
+*.npz
+*.ckpt
+logs/
+outputs/
+
+# Local environment overrides
+.env

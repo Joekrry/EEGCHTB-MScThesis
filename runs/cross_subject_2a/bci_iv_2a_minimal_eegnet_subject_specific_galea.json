@@ -1,0 +1,4086 @@
+{
+  "cell": "bci_iv_2a_minimal_eegnet_subject_specific_galea",
+  "n_pairs": 405,
+  "within_subject": {
+    "n": 45,
+    "mean": {
+      "accuracy": 0.6270833333333334,
+      "macro_f1": 0.6223486695379556,
+      "cohen_kappa": 0.5027777777777778,
+      "mcc": 0.507503346576044
+    },
+    "std": {
+      "accuracy": 0.12113671648568318,
+      "macro_f1": 0.12215897268713341,
+      "cohen_kappa": 0.16151562198091088,
+      "mcc": 0.16191223674938313
+    }
+  },
+  "cross_subject": {
+    "n": 360,
+    "mean": {
+      "accuracy": 0.3277777777777778,
+      "macro_f1": 0.26444965727414,
+      "cohen_kappa": 0.10370370370370369,
+      "mcc": 0.12093543207789496
+    },
+    "std": {
+      "accuracy": 0.0749555123543594,
+      "macro_f1": 0.1019767870621973,
+      "cohen_kappa": 0.09994068313914588,
+      "mcc": 0.10633142678160272
+    }
+  },
+  "per_pair": [
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 1,
+      "within": true,
+      "accuracy": 0.7777777777777778,
+      "macro_f1": 0.7770572805805671,
+      "cohen_kappa": 0.7037037037037037,
+      "mcc": 0.7048831215554557
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.22154956979514548,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.03714089728132795
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.5798611111111112,
+      "macro_f1": 0.5692036764105889,
+      "cohen_kappa": 0.43981481481481477,
+      "mcc": 0.4653676845286594
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.2544312422183661,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.12178041385612581
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.20811225387884424,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.1387734930613457
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2638888888888889,
+      "macro_f1": 0.1372680658700835,
+      "cohen_kappa": 0.01851851851851849,
+      "mcc": 0.04353874478274806
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3993055555555556,
+      "macro_f1": 0.343785770805645,
+      "cohen_kappa": 0.19907407407407407,
+      "mcc": 0.2313232530802714
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3298611111111111,
+      "macro_f1": 0.21518865657293917,
+      "cohen_kappa": 0.10648148148148151,
+      "mcc": 0.14823754638436787
+    },
+    {
+      "seed": 0,
+      "train_subject": 1,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2638888888888889,
+      "macro_f1": 0.13674097641488947,
+      "cohen_kappa": 0.01851851851851849,
+      "mcc": 0.028742040903948458
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.26986692112742533,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.07542642183696617
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 2,
+      "within": true,
+      "accuracy": 0.6076388888888888,
+      "macro_f1": 0.5918860898362464,
+      "cohen_kappa": 0.47685185185185186,
+      "mcc": 0.4814713964100238
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.2449532227854544,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.10615570429159654
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.2183815272318922,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.028057804751541682
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.19743531372705478,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.0056320825069184205
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.2803007518796992,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.11900818317864727
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.2916344925827684,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.11838998318310157
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.3080247153351055,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.09946018499070332
+    },
+    {
+      "seed": 0,
+      "train_subject": 2,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.2264980661889618,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.0794314255194473
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.4583333333333333,
+      "macro_f1": 0.39469173496170123,
+      "cohen_kappa": 0.2777777777777778,
+      "mcc": 0.33220483088302966
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.1685684781205628,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.0504885740670884
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 3,
+      "within": true,
+      "accuracy": 0.8402777777777778,
+      "macro_f1": 0.8389955571024381,
+      "cohen_kappa": 0.787037037037037,
+      "mcc": 0.7906549143572252
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.15476190476190477,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.07180336973794409
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.1481074481074481,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.007808092988070072
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.34375,
+      "macro_f1": 0.26588637967330425,
+      "cohen_kappa": 0.125,
+      "mcc": 0.16347881535068395
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2847222222222222,
+      "macro_f1": 0.21952573682025736,
+      "cohen_kappa": 0.04629629629629628,
+      "mcc": 0.06570988732209603
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.4791666666666667,
+      "macro_f1": 0.4586743295019157,
+      "cohen_kappa": 0.3055555555555556,
+      "mcc": 0.3287306738271602
+    },
+    {
+      "seed": 0,
+      "train_subject": 3,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3854166666666667,
+      "macro_f1": 0.3049205573330842,
+      "cohen_kappa": 0.18055555555555558,
+      "mcc": 0.19892393447576157
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3715277777777778,
+      "macro_f1": 0.36869242305220307,
+      "cohen_kappa": 0.1620370370370371,
+      "mcc": 0.16261577531709306
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.27216813437703846,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.04222700319977631
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4791666666666667,
+      "macro_f1": 0.4464323544759176,
+      "cohen_kappa": 0.3055555555555556,
+      "mcc": 0.3147195555559585
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 4,
+      "within": true,
+      "accuracy": 0.5486111111111112,
+      "macro_f1": 0.5415181403553496,
+      "cohen_kappa": 0.39814814814814814,
+      "mcc": 0.4055363280570876
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.2739475007276865,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.03777537317199085
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.4097222222222222,
+      "macro_f1": 0.40660484292619065,
+      "cohen_kappa": 0.2129629629629629,
+      "mcc": 0.21900665224696625
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2881944444444444,
+      "macro_f1": 0.2879759852245288,
+      "cohen_kappa": 0.05092592592592593,
+      "mcc": 0.052351579632424455
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.27357035527288337,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.07758995163656913
+    },
+    {
+      "seed": 0,
+      "train_subject": 4,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3576388888888889,
+      "macro_f1": 0.3460013238439491,
+      "cohen_kappa": 0.1435185185185185,
+      "mcc": 0.14637467564922396
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.3509367237094338,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.14040245543577265
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.2914475630068961,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.11601718873642052
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4548611111111111,
+      "macro_f1": 0.4304104963712142,
+      "cohen_kappa": 0.27314814814814814,
+      "mcc": 0.2772474963749685
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.3064449734662501,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.10474629747086911
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 5,
+      "within": true,
+      "accuracy": 0.6423611111111112,
+      "macro_f1": 0.6381410490418868,
+      "cohen_kappa": 0.5231481481481481,
+      "mcc": 0.526716383053648
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.29144096573241995,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.06523245324392317
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.5625,
+      "macro_f1": 0.5318396490577264,
+      "cohen_kappa": 0.41666666666666663,
+      "mcc": 0.4349729872038847
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3159722222222222,
+      "macro_f1": 0.3035139318885449,
+      "cohen_kappa": 0.08796296296296291,
+      "mcc": 0.0900893913142131
+    },
+    {
+      "seed": 0,
+      "train_subject": 5,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.24010208818312828,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.04531518702211039
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.21875,
+      "macro_f1": 0.18593314605128217,
+      "cohen_kappa": -0.04166666666666674,
+      "mcc": -0.04925650203086922
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2465277777777778,
+      "macro_f1": 0.18987390835050535,
+      "cohen_kappa": -0.004629629629629539,
+      "mcc": -0.005688663167212643
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3402777777777778,
+      "macro_f1": 0.28067491219015284,
+      "cohen_kappa": 0.12037037037037035,
+      "mcc": 0.1529755866144824
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.16094910660509937,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.03333222227777469
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.21180555555555555,
+      "macro_f1": 0.12060417092619097,
+      "cohen_kappa": -0.05092592592592582,
+      "mcc": -0.07252318134192148
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 6,
+      "within": true,
+      "accuracy": 0.3819444444444444,
+      "macro_f1": 0.3677755443277235,
+      "cohen_kappa": 0.17592592592592593,
+      "mcc": 0.17835953413029776
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2326388888888889,
+      "macro_f1": 0.15268825568990044,
+      "cohen_kappa": -0.02314814814814814,
+      "mcc": -0.033557802760701215
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.20994588386541232,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.005295343138596918
+    },
+    {
+      "seed": 0,
+      "train_subject": 6,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.288527176416398,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.0713545854708962
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.5347222222222222,
+      "macro_f1": 0.5121606699170643,
+      "cohen_kappa": 0.37962962962962965,
+      "mcc": 0.40215651796843793
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.26405730650492154,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.023314394194796546
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3576388888888889,
+      "macro_f1": 0.2752589241383988,
+      "cohen_kappa": 0.1435185185185185,
+      "mcc": 0.20046781735524077
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3819444444444444,
+      "macro_f1": 0.3556914554859638,
+      "cohen_kappa": 0.17592592592592593,
+      "mcc": 0.1882006981985155
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.4444444444444444,
+      "macro_f1": 0.312178430661843,
+      "cohen_kappa": 0.2592592592592593,
+      "mcc": 0.3123353780694077
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2881944444444444,
+      "macro_f1": 0.17061518295025652,
+      "cohen_kappa": 0.05092592592592593,
+      "mcc": 0.13172471952955594
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 7,
+      "within": true,
+      "accuracy": 0.6215277777777778,
+      "macro_f1": 0.6099674936287514,
+      "cohen_kappa": 0.49537037037037035,
+      "mcc": 0.5147771794141633
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.1335227272727273,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.08625819491779428
+    },
+    {
+      "seed": 0,
+      "train_subject": 7,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.10873975958961794,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.01836331295970799
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.1812217194570136,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.11185511900491271
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.15020905923344946,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.1084001822894394
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4131944444444444,
+      "macro_f1": 0.36708427601809956,
+      "cohen_kappa": 0.21759259259259256,
+      "mcc": 0.23871558002274826
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.1808381929489196,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.046046154800940146
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2604166666666667,
+      "macro_f1": 0.1426114587086841,
+      "cohen_kappa": 0.01388888888888884,
+      "mcc": 0.03608830786883917
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.2717250011951309,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.027857603008850092
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.22396069538926683,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.14744030057332164
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 8,
+      "within": true,
+      "accuracy": 0.5833333333333334,
+      "macro_f1": 0.584842261819027,
+      "cohen_kappa": 0.4444444444444444,
+      "mcc": 0.4468428348537706
+    },
+    {
+      "seed": 0,
+      "train_subject": 8,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2881944444444444,
+      "macro_f1": 0.18450273330535066,
+      "cohen_kappa": 0.05092592592592593,
+      "mcc": 0.0777710531457911
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.10526315789473684,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.24305555555555555,
+      "macro_f1": 0.09776536312849161,
+      "cohen_kappa": -0.0092592592592593,
+      "mcc": -0.0682788741998919
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.11421023740908468,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.01363291359374616
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2604166666666667,
+      "macro_f1": 0.12117543473475678,
+      "cohen_kappa": 0.01388888888888884,
+      "mcc": 0.05946134163544095
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.1,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3819444444444444,
+      "macro_f1": 0.3755710955710956,
+      "cohen_kappa": 0.17592592592592593,
+      "mcc": 0.1770739329489429
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.10831211675691182,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.018409932260318625
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.15510505754408194,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.051486596775690424
+    },
+    {
+      "seed": 0,
+      "train_subject": 9,
+      "test_subject": 9,
+      "within": true,
+      "accuracy": 0.7083333333333334,
+      "macro_f1": 0.7024153607070698,
+      "cohen_kappa": 0.6111111111111112,
+      "mcc": 0.614009944018082
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 1,
+      "within": true,
+      "accuracy": 0.6909722222222222,
+      "macro_f1": 0.6813607575396721,
+      "cohen_kappa": 0.587962962962963,
+      "mcc": 0.5916937359108142
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3159722222222222,
+      "macro_f1": 0.2565240461293093,
+      "cohen_kappa": 0.08796296296296291,
+      "mcc": 0.11845078074025622
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.5590277777777778,
+      "macro_f1": 0.5140696221576467,
+      "cohen_kappa": 0.4120370370370371,
+      "mcc": 0.437680805672208
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3159722222222222,
+      "macro_f1": 0.23848506381062134,
+      "cohen_kappa": 0.08796296296296291,
+      "mcc": 0.12294065535645804
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.1616085331672376,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.09547493139730832
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.1583892025405787,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.07107111196319124
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.4131944444444444,
+      "macro_f1": 0.37230665230866355,
+      "cohen_kappa": 0.21759259259259256,
+      "mcc": 0.24750043363732965
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3368055555555556,
+      "macro_f1": 0.23760686765445083,
+      "cohen_kappa": 0.1157407407407407,
+      "mcc": 0.1410775459632113
+    },
+    {
+      "seed": 1,
+      "train_subject": 1,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.23478370395579296,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.1408428846983899
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.2916666666666667,
+      "macro_f1": 0.28422408814252076,
+      "cohen_kappa": 0.05555555555555558,
+      "mcc": 0.05652898604460791
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 2,
+      "within": true,
+      "accuracy": 0.5277777777777778,
+      "macro_f1": 0.5247196993237233,
+      "cohen_kappa": 0.37037037037037035,
+      "mcc": 0.3714947735261354
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.3175311054315631,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.1500187535163576
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.24645617542612697,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.030480227127306695
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.2690416604071633,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.08537971686803389
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.2434419774503192,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.03386922762730892
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3923611111111111,
+      "macro_f1": 0.3613602378977423,
+      "cohen_kappa": 0.18981481481481477,
+      "mcc": 0.196627421129845
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3576388888888889,
+      "macro_f1": 0.3440190493035321,
+      "cohen_kappa": 0.1435185185185185,
+      "mcc": 0.14564106079382058
+    },
+    {
+      "seed": 1,
+      "train_subject": 2,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3125,
+      "macro_f1": 0.28234486142728077,
+      "cohen_kappa": 0.08333333333333337,
+      "mcc": 0.08906254076960503
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.4166666666666667,
+      "macro_f1": 0.371915810595651,
+      "cohen_kappa": 0.2222222222222222,
+      "mcc": 0.28856556560931984
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.17498098015137775,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.051486596775690424
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 3,
+      "within": true,
+      "accuracy": 0.8645833333333334,
+      "macro_f1": 0.8646077324983282,
+      "cohen_kappa": 0.8194444444444444,
+      "mcc": 0.8216266181312754
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.22183529211377961,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.12301895478632052
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2326388888888889,
+      "macro_f1": 0.1540147265077139,
+      "cohen_kappa": -0.02314814814814814,
+      "mcc": -0.029077631574952214
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.2428319402576048,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.13922238249904603
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.23776350061689988,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.05479204534065545
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.4201388888888889,
+      "macro_f1": 0.3800761819254498,
+      "cohen_kappa": 0.22685185185185186,
+      "mcc": 0.25527585907273986
+    },
+    {
+      "seed": 1,
+      "train_subject": 3,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3958333333333333,
+      "macro_f1": 0.31699201833517665,
+      "cohen_kappa": 0.19444444444444442,
+      "mcc": 0.21227151874523542
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.2971562421807886,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.06498426560023329
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.2838656534927986,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.07076849600901555
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4756944444444444,
+      "macro_f1": 0.4733591752936679,
+      "cohen_kappa": 0.30092592592592593,
+      "mcc": 0.30596960377369503
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 4,
+      "within": true,
+      "accuracy": 0.4722222222222222,
+      "macro_f1": 0.46766998017310596,
+      "cohen_kappa": 0.2962962962962963,
+      "mcc": 0.29838045815354336
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.2963614903175209,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.07802882325773645
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.4409722222222222,
+      "macro_f1": 0.437002474022761,
+      "cohen_kappa": 0.25462962962962965,
+      "mcc": 0.2571005901406602
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3576388888888889,
+      "macro_f1": 0.35656899257119506,
+      "cohen_kappa": 0.1435185185185185,
+      "mcc": 0.14675059759998146
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.31582542877342257,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.10267881771240872
+    },
+    {
+      "seed": 1,
+      "train_subject": 4,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3402777777777778,
+      "macro_f1": 0.3301304942393188,
+      "cohen_kappa": 0.12037037037037035,
+      "mcc": 0.1225345455975164
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3506944444444444,
+      "macro_f1": 0.33943509893162543,
+      "cohen_kappa": 0.1342592592592593,
+      "mcc": 0.1353626199482937
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3506944444444444,
+      "macro_f1": 0.30810553835946475,
+      "cohen_kappa": 0.1342592592592593,
+      "mcc": 0.14000842406586567
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4236111111111111,
+      "macro_f1": 0.4082472818973766,
+      "cohen_kappa": 0.2314814814814815,
+      "mcc": 0.2347534265315045
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3125,
+      "macro_f1": 0.2997149055424291,
+      "cohen_kappa": 0.08333333333333337,
+      "mcc": 0.08719340054896658
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 5,
+      "within": true,
+      "accuracy": 0.5694444444444444,
+      "macro_f1": 0.5637954955115017,
+      "cohen_kappa": 0.42592592592592593,
+      "mcc": 0.42794632461866317
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.2638880691451992,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.06726766763874473
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.5659722222222222,
+      "macro_f1": 0.5416318503471859,
+      "cohen_kappa": 0.4212962962962963,
+      "mcc": 0.44054755342989893
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.3027963505836434,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.09979147041366007
+    },
+    {
+      "seed": 1,
+      "train_subject": 5,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2638888888888889,
+      "macro_f1": 0.19730397045297748,
+      "cohen_kappa": 0.01851851851851849,
+      "mcc": 0.021005842405967864
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.2506240472995792,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.026103877713634878
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2569444444444444,
+      "macro_f1": 0.1982304009443445,
+      "cohen_kappa": 0.0092592592592593,
+      "mcc": 0.011792178159648904
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.2850695623844358,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.1524293503343344
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.20486357628126317,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.10049477217791102
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.16459124806528774,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.036216198332984645
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 6,
+      "within": true,
+      "accuracy": 0.4409722222222222,
+      "macro_f1": 0.43784124224732873,
+      "cohen_kappa": 0.25462962962962965,
+      "mcc": 0.25488789346583735
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.2358933977267469,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.08241146209560211
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2638888888888889,
+      "macro_f1": 0.24299540049974447,
+      "cohen_kappa": 0.01851851851851849,
+      "mcc": 0.020514843772727078
+    },
+    {
+      "seed": 1,
+      "train_subject": 6,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3298611111111111,
+      "macro_f1": 0.30176685425149663,
+      "cohen_kappa": 0.10648148148148151,
+      "mcc": 0.11355636468430745
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.5625,
+      "macro_f1": 0.5506010723556363,
+      "cohen_kappa": 0.41666666666666663,
+      "mcc": 0.4264804178805028
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.27641652128191,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.04187926857658563
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4409722222222222,
+      "macro_f1": 0.3592610776325307,
+      "cohen_kappa": 0.25462962962962965,
+      "mcc": 0.3100301768851108
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.375,
+      "macro_f1": 0.37354867354867355,
+      "cohen_kappa": 0.16666666666666663,
+      "mcc": 0.16745454003418508
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.4444444444444444,
+      "macro_f1": 0.35167039324661975,
+      "cohen_kappa": 0.2592592592592593,
+      "mcc": 0.3050220233413859
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.199410677566406,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.13628595535837265
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 7,
+      "within": true,
+      "accuracy": 0.6423611111111112,
+      "macro_f1": 0.6351545016353933,
+      "cohen_kappa": 0.5231481481481481,
+      "mcc": 0.5391875574530419
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.21898952823059484,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.18572869762009062
+    },
+    {
+      "seed": 1,
+      "train_subject": 7,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2569444444444444,
+      "macro_f1": 0.11822617350417511,
+      "cohen_kappa": 0.0092592592592593,
+      "mcc": 0.02226555853739337
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.24972403280067285,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.08309026037996745
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3680555555555556,
+      "macro_f1": 0.2753357721452835,
+      "cohen_kappa": 0.15740740740740744,
+      "mcc": 0.1834050395240947
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.34375,
+      "macro_f1": 0.3212498766065229,
+      "cohen_kappa": 0.125,
+      "mcc": 0.13767359570382026
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.18459673007727928,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.03989772691669691
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.24069027427546452,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.09380091401008589
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2604166666666667,
+      "macro_f1": 0.2459444880734236,
+      "cohen_kappa": 0.01388888888888884,
+      "mcc": 0.014389854699655412
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3298611111111111,
+      "macro_f1": 0.27510399587261924,
+      "cohen_kappa": 0.10648148148148151,
+      "mcc": 0.12707085352729855
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 8,
+      "within": true,
+      "accuracy": 0.6423611111111112,
+      "macro_f1": 0.6477769665707872,
+      "cohen_kappa": 0.5231481481481481,
+      "mcc": 0.5262791992509602
+    },
+    {
+      "seed": 1,
+      "train_subject": 8,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3159722222222222,
+      "macro_f1": 0.2278510648502243,
+      "cohen_kappa": 0.08796296296296291,
+      "mcc": 0.12474783272501065
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.11427686133325464,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.00914759570463365
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.1,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.14836467132951825,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.053030937108468075
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.11277310924369748,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.027923593886113034
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.1,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3888888888888889,
+      "macro_f1": 0.38433445060454124,
+      "cohen_kappa": 0.18518518518518523,
+      "mcc": 0.18662169625615058
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.1138261437167099,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.018381918144783856
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.19310956532787013,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.09357926393473169
+    },
+    {
+      "seed": 1,
+      "train_subject": 9,
+      "test_subject": 9,
+      "within": true,
+      "accuracy": 0.71875,
+      "macro_f1": 0.7101363726363726,
+      "cohen_kappa": 0.625,
+      "mcc": 0.6300025200151201
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 1,
+      "within": true,
+      "accuracy": 0.78125,
+      "macro_f1": 0.7790159572705506,
+      "cohen_kappa": 0.7083333333333333,
+      "mcc": 0.710817214964332
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.23146258503401362,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.077532288562457
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.6319444444444444,
+      "macro_f1": 0.603577460029073,
+      "cohen_kappa": 0.5092592592592593,
+      "mcc": 0.5353416079940707
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.21894448593477722,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.10869993313144503
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2916666666666667,
+      "macro_f1": 0.17749617112372534,
+      "cohen_kappa": 0.05555555555555558,
+      "mcc": 0.10937374832394613
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.16593245370887152,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.06688649924881895
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3819444444444444,
+      "macro_f1": 0.3177873600976917,
+      "cohen_kappa": 0.17592592592592593,
+      "mcc": 0.21786791868457017
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.24160770526624187,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.16934968979081452
+    },
+    {
+      "seed": 2,
+      "train_subject": 1,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.19549266247379454,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.08495959008523993
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3125,
+      "macro_f1": 0.3034955020865839,
+      "cohen_kappa": 0.08333333333333337,
+      "mcc": 0.08537087948163567
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 2,
+      "within": true,
+      "accuracy": 0.46875,
+      "macro_f1": 0.4699923960310838,
+      "cohen_kappa": 0.29166666666666663,
+      "mcc": 0.2924622789020358
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.30290718752431345,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.10446209930295387
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2916666666666667,
+      "macro_f1": 0.2709105213598969,
+      "cohen_kappa": 0.05555555555555558,
+      "mcc": 0.05778721950637048
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.30839617924269824,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.11406091766868565
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.24388944216463443,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.0294857205439087
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3993055555555556,
+      "macro_f1": 0.37702094913633377,
+      "cohen_kappa": 0.19907407407407407,
+      "mcc": 0.2049118100676243
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3368055555555556,
+      "macro_f1": 0.3157115545181563,
+      "cohen_kappa": 0.1157407407407407,
+      "mcc": 0.11758295493533563
+    },
+    {
+      "seed": 2,
+      "train_subject": 2,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.2733405743554166,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.06922766049290811
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.4444444444444444,
+      "macro_f1": 0.4079406900177528,
+      "cohen_kappa": 0.2592592592592593,
+      "mcc": 0.3009969759361985
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.17731941261353026,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.0501763108532439
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 3,
+      "within": true,
+      "accuracy": 0.8819444444444444,
+      "macro_f1": 0.8810835417604153,
+      "cohen_kappa": 0.8425925925925926,
+      "mcc": 0.843841481928219
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.2278280929596719,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.11888402575869761
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.17837159945977232,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.02835673019882922
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.23190544499482674,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.1288299888764247
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.27487088777163854,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.10953273736459235
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.4548611111111111,
+      "macro_f1": 0.42863621669339896,
+      "cohen_kappa": 0.27314814814814814,
+      "mcc": 0.2853089464848353
+    },
+    {
+      "seed": 2,
+      "train_subject": 3,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3715277777777778,
+      "macro_f1": 0.3004282378764566,
+      "cohen_kappa": 0.1620370370370371,
+      "mcc": 0.18398005854350025
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3576388888888889,
+      "macro_f1": 0.3535755660173832,
+      "cohen_kappa": 0.1435185185185185,
+      "mcc": 0.1447027021264696
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3125,
+      "macro_f1": 0.2946053167588386,
+      "cohen_kappa": 0.08333333333333337,
+      "mcc": 0.084342677579209
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4513888888888889,
+      "macro_f1": 0.38403932726793927,
+      "cohen_kappa": 0.2685185185185185,
+      "mcc": 0.31552275439945926
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 4,
+      "within": true,
+      "accuracy": 0.5625,
+      "macro_f1": 0.555609797875985,
+      "cohen_kappa": 0.41666666666666663,
+      "mcc": 0.41877908440550565
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.21692638687742727,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.04325051019219397
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3854166666666667,
+      "macro_f1": 0.34674755341738034,
+      "cohen_kappa": 0.18055555555555558,
+      "mcc": 0.18995145992893056
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3888888888888889,
+      "macro_f1": 0.38885474678036897,
+      "cohen_kappa": 0.18518518518518523,
+      "mcc": 0.18660951070626777
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.28180669828552884,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.15833504680636362
+    },
+    {
+      "seed": 2,
+      "train_subject": 4,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3472222222222222,
+      "macro_f1": 0.2733424901831555,
+      "cohen_kappa": 0.12962962962962965,
+      "mcc": 0.14981511439206577
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3611111111111111,
+      "macro_f1": 0.3514150140920149,
+      "cohen_kappa": 0.14814814814814814,
+      "mcc": 0.1499153853709454
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3611111111111111,
+      "macro_f1": 0.320314412199768,
+      "cohen_kappa": 0.14814814814814814,
+      "mcc": 0.1546570621169368
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4340277777777778,
+      "macro_f1": 0.42135612115212706,
+      "cohen_kappa": 0.24537037037037035,
+      "mcc": 0.2482483251565996
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.30916599887377627,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.11043917872210113
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 5,
+      "within": true,
+      "accuracy": 0.5972222222222222,
+      "macro_f1": 0.5923130550431164,
+      "cohen_kappa": 0.4629629629629629,
+      "mcc": 0.4651137635883945
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.330871960080522,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.14390103012520714
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.5416666666666666,
+      "macro_f1": 0.5219859364376606,
+      "cohen_kappa": 0.38888888888888884,
+      "mcc": 0.4082121338191371
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.2889705008496908,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.06591867524273574
+    },
+    {
+      "seed": 2,
+      "train_subject": 5,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.23095762361854408,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.03560646910590779
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.22916666666666666,
+      "macro_f1": 0.17445185657526857,
+      "cohen_kappa": -0.02777777777777768,
+      "mcc": -0.03528465676699141
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.16412577318924065,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.05038726572387011
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.19851556676652243,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.06453229708574457
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.1606901509705248,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.06941448001506127
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.12780832678711704,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.010034426969867446
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 6,
+      "within": true,
+      "accuracy": 0.4548611111111111,
+      "macro_f1": 0.451784222795772,
+      "cohen_kappa": 0.27314814814814814,
+      "mcc": 0.2738666876927477
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.22916666666666666,
+      "macro_f1": 0.13354314739172785,
+      "cohen_kappa": -0.02777777777777768,
+      "mcc": -0.04729176506299245
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2638888888888889,
+      "macro_f1": 0.21482428828914152,
+      "cohen_kappa": 0.01851851851851849,
+      "mcc": 0.021978851409330577
+    },
+    {
+      "seed": 2,
+      "train_subject": 6,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.3061226799090877,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.11842433633320154
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.53125,
+      "macro_f1": 0.5080694426239034,
+      "cohen_kappa": 0.375,
+      "mcc": 0.3939542400180346
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.25992909738711706,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.023288963546180225
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3993055555555556,
+      "macro_f1": 0.31378239669930974,
+      "cohen_kappa": 0.19907407407407407,
+      "mcc": 0.26291212855594825
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3888888888888889,
+      "macro_f1": 0.3731883318286173,
+      "cohen_kappa": 0.18518518518518523,
+      "mcc": 0.198710087246409
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.4548611111111111,
+      "macro_f1": 0.3383334118090215,
+      "cohen_kappa": 0.27314814814814814,
+      "mcc": 0.32418805828762604
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2881944444444444,
+      "macro_f1": 0.1754106029106029,
+      "cohen_kappa": 0.05092592592592593,
+      "mcc": 0.09492110020907835
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 7,
+      "within": true,
+      "accuracy": 0.6319444444444444,
+      "macro_f1": 0.6225295987147696,
+      "cohen_kappa": 0.5092592592592593,
+      "mcc": 0.5274914901132804
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2847222222222222,
+      "macro_f1": 0.1605169024523863,
+      "cohen_kappa": 0.04629629629629628,
+      "mcc": 0.11420928955610025
+    },
+    {
+      "seed": 2,
+      "train_subject": 7,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.10682492581602374,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.2097440983050805,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.09473106919661423
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3680555555555556,
+      "macro_f1": 0.25215264187866926,
+      "cohen_kappa": 0.15740740740740744,
+      "mcc": 0.2269694946796849
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3819444444444444,
+      "macro_f1": 0.3148793123595599,
+      "cohen_kappa": 0.17592592592592593,
+      "mcc": 0.19457650825993525
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2361111111111111,
+      "macro_f1": 0.16776825606093898,
+      "cohen_kappa": -0.0185185185185186,
+      "mcc": -0.02257995863877527
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2881944444444444,
+      "macro_f1": 0.18385947472016223,
+      "cohen_kappa": 0.05092592592592593,
+      "mcc": 0.09526219902940489
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2638888888888889,
+      "macro_f1": 0.24601374166289292,
+      "cohen_kappa": 0.01851851851851849,
+      "mcc": 0.0189873298879612
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3576388888888889,
+      "macro_f1": 0.2792222580410345,
+      "cohen_kappa": 0.1435185185185185,
+      "mcc": 0.1667932704837606
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 8,
+      "within": true,
+      "accuracy": 0.625,
+      "macro_f1": 0.625182016595376,
+      "cohen_kappa": 0.5,
+      "mcc": 0.5012828912719041
+    },
+    {
+      "seed": 2,
+      "train_subject": 8,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3368055555555556,
+      "macro_f1": 0.2610824577731933,
+      "cohen_kappa": 0.1157407407407407,
+      "mcc": 0.15667131465128079
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.10557184750733138,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2465277777777778,
+      "macro_f1": 0.0988857938718663,
+      "cohen_kappa": -0.004629629629629539,
+      "mcc": -0.04819626927118799
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.14201369765665253,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.055305200465303184
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.10712786660052658,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.04819626927118799
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.1,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3923611111111111,
+      "macro_f1": 0.38357545397404164,
+      "cohen_kappa": 0.18981481481481477,
+      "mcc": 0.19182664239989422
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.10027855153203342,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.18091791898083817,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.09160269020996456
+    },
+    {
+      "seed": 2,
+      "train_subject": 9,
+      "test_subject": 9,
+      "within": true,
+      "accuracy": 0.71875,
+      "macro_f1": 0.7160572964375236,
+      "cohen_kappa": 0.625,
+      "mcc": 0.6285974873730757
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 1,
+      "within": true,
+      "accuracy": 0.7152777777777778,
+      "macro_f1": 0.7085081835530792,
+      "cohen_kappa": 0.6203703703703703,
+      "mcc": 0.6241848494923393
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.22970483399415276,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.07876861743984073
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.5486111111111112,
+      "macro_f1": 0.5101764487654132,
+      "cohen_kappa": 0.39814814814814814,
+      "mcc": 0.42146989498722287
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.24714629573325225,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.09361809765458874
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2916666666666667,
+      "macro_f1": 0.18545454545454543,
+      "cohen_kappa": 0.05555555555555558,
+      "mcc": 0.11079099776623366
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.184564014239195,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.1042186717446379
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.40625,
+      "macro_f1": 0.3594614406340866,
+      "cohen_kappa": 0.20833333333333337,
+      "mcc": 0.2448510534371959
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.2172599175176748,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.12646014036773673
+    },
+    {
+      "seed": 3,
+      "train_subject": 1,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.20646086774135555,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.098424688323134
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3159722222222222,
+      "macro_f1": 0.29723782335722637,
+      "cohen_kappa": 0.08796296296296291,
+      "mcc": 0.09143443119411064
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 2,
+      "within": true,
+      "accuracy": 0.4826388888888889,
+      "macro_f1": 0.47337976061804576,
+      "cohen_kappa": 0.31018518518518523,
+      "mcc": 0.3161890283662699
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.40625,
+      "macro_f1": 0.36931122876474776,
+      "cohen_kappa": 0.20833333333333337,
+      "mcc": 0.23894460269066772
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.20943899300253707,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.031732043628258114
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.2696103162947874,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.08667830453519876
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.2613960628141002,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.037815866682930674
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3680555555555556,
+      "macro_f1": 0.33347118692700095,
+      "cohen_kappa": 0.15740740740740744,
+      "mcc": 0.16707364559422538
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3923611111111111,
+      "macro_f1": 0.3732540177624311,
+      "cohen_kappa": 0.18981481481481477,
+      "mcc": 0.1938063167500197
+    },
+    {
+      "seed": 3,
+      "train_subject": 2,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.23329212475776334,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.07113549747785744
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.4618055555555556,
+      "macro_f1": 0.42349557404148663,
+      "cohen_kappa": 0.28240740740740744,
+      "mcc": 0.31904175868415585
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.14593708488045723,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.00805339382635981
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 3,
+      "within": true,
+      "accuracy": 0.8576388888888888,
+      "macro_f1": 0.8574783800787658,
+      "cohen_kappa": 0.8101851851851851,
+      "mcc": 0.8132632332850926
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.22007094994087503,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.11597680374853396
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2604166666666667,
+      "macro_f1": 0.1736231884057971,
+      "cohen_kappa": 0.01388888888888884,
+      "mcc": 0.017043666418830455
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.20199059595892388,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.11625287547777889
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3368055555555556,
+      "macro_f1": 0.2857579318448884,
+      "cohen_kappa": 0.1157407407407407,
+      "mcc": 0.13406897703397425
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.4548611111111111,
+      "macro_f1": 0.4220184720229555,
+      "cohen_kappa": 0.27314814814814814,
+      "mcc": 0.2852739260541223
+    },
+    {
+      "seed": 3,
+      "train_subject": 3,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3680555555555556,
+      "macro_f1": 0.29259758395585167,
+      "cohen_kappa": 0.15740740740740744,
+      "mcc": 0.18755641433178424
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3645833333333333,
+      "macro_f1": 0.3565257040601786,
+      "cohen_kappa": 0.1527777777777778,
+      "mcc": 0.15462314999419602
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.31534734113503804,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.09828979235280283
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4618055555555556,
+      "macro_f1": 0.4257135573622732,
+      "cohen_kappa": 0.28240740740740744,
+      "mcc": 0.3180774116475844
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 4,
+      "within": true,
+      "accuracy": 0.53125,
+      "macro_f1": 0.5266208016928997,
+      "cohen_kappa": 0.375,
+      "mcc": 0.3771584924238454
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.28199050949050947,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.0744350420239462
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.375,
+      "macro_f1": 0.32074439113320985,
+      "cohen_kappa": 0.16666666666666663,
+      "mcc": 0.18848813393832634
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3784722222222222,
+      "macro_f1": 0.38082905407220635,
+      "cohen_kappa": 0.17129629629629628,
+      "mcc": 0.17193037538813963
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.2900448527279029,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.1527207096642425
+    },
+    {
+      "seed": 3,
+      "train_subject": 4,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.2820333583985721,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.10355954516799422
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.3171671592724224,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.10460901690346236
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3402777777777778,
+      "macro_f1": 0.2942590544989926,
+      "cohen_kappa": 0.12037037037037035,
+      "mcc": 0.128274293227699
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4409722222222222,
+      "macro_f1": 0.41986176625088434,
+      "cohen_kappa": 0.25462962962962965,
+      "mcc": 0.25792193223796206
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.3069813504293218,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.09756039524030305
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 5,
+      "within": true,
+      "accuracy": 0.6041666666666666,
+      "macro_f1": 0.5962176504389931,
+      "cohen_kappa": 0.4722222222222222,
+      "mcc": 0.4762353183852871
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3402777777777778,
+      "macro_f1": 0.31087867733830465,
+      "cohen_kappa": 0.12037037037037035,
+      "mcc": 0.12463467456882191
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.5416666666666666,
+      "macro_f1": 0.5117689699146966,
+      "cohen_kappa": 0.38888888888888884,
+      "mcc": 0.40775017560338495
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.29441792475259293,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.09750125190887715
+    },
+    {
+      "seed": 3,
+      "train_subject": 5,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2881944444444444,
+      "macro_f1": 0.23193617724867727,
+      "cohen_kappa": 0.05092592592592593,
+      "mcc": 0.05826715823167508
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.3106919593798078,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.07669826127312118
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3125,
+      "macro_f1": 0.3214469333084969,
+      "cohen_kappa": 0.08333333333333337,
+      "mcc": 0.08548633529999582
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4583333333333333,
+      "macro_f1": 0.4462461086300034,
+      "cohen_kappa": 0.2777777777777778,
+      "mcc": 0.2985518042588092
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2986111111111111,
+      "macro_f1": 0.23740628115653042,
+      "cohen_kappa": 0.06481481481481477,
+      "mcc": 0.07616573665372596
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.2061679837380772,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.025845229722901448
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 6,
+      "within": true,
+      "accuracy": 0.4444444444444444,
+      "macro_f1": 0.4483363821208896,
+      "cohen_kappa": 0.2592592592592593,
+      "mcc": 0.26015575847632744
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3125,
+      "macro_f1": 0.2849829206180231,
+      "cohen_kappa": 0.08333333333333337,
+      "mcc": 0.09418985920224748
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.24761313008024738,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.004760528617500671
+    },
+    {
+      "seed": 3,
+      "train_subject": 6,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2881944444444444,
+      "macro_f1": 0.2683531300502253,
+      "cohen_kappa": 0.05092592592592593,
+      "mcc": 0.05347340202311478
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.5034722222222222,
+      "macro_f1": 0.46797708112842595,
+      "cohen_kappa": 0.3379629629629629,
+      "mcc": 0.3733807755812078
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.27270540214612204,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.04251293790778097
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3576388888888889,
+      "macro_f1": 0.27867653192355607,
+      "cohen_kappa": 0.1435185185185185,
+      "mcc": 0.23005605456447648
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3194444444444444,
+      "macro_f1": 0.2695738017429194,
+      "cohen_kappa": 0.09259259259259256,
+      "mcc": 0.11409772433502474
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.4618055555555556,
+      "macro_f1": 0.3607916237648882,
+      "cohen_kappa": 0.28240740740740744,
+      "mcc": 0.3324188980575055
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3020833333333333,
+      "macro_f1": 0.2052413719396899,
+      "cohen_kappa": 0.06944444444444442,
+      "mcc": 0.13806571835479847
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 7,
+      "within": true,
+      "accuracy": 0.625,
+      "macro_f1": 0.6120478555261164,
+      "cohen_kappa": 0.5,
+      "mcc": 0.5269766291792773
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2604166666666667,
+      "macro_f1": 0.12097034460501309,
+      "cohen_kappa": 0.01388888888888884,
+      "mcc": 0.055229796780955874
+    },
+    {
+      "seed": 3,
+      "train_subject": 7,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.10256410256410256,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3159722222222222,
+      "macro_f1": 0.22632969642861261,
+      "cohen_kappa": 0.08796296296296291,
+      "mcc": 0.10849086526963415
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.2222222222222222,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.17432545345616357
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4618055555555556,
+      "macro_f1": 0.4224648979221643,
+      "cohen_kappa": 0.28240740740740744,
+      "mcc": 0.3088261230309182
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.18875244512062594,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.05051598042823453
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.1911279195821425,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.05328539803628617
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.28759327416669866,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.0755507463439817
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.20548489666136727,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.07238998603066159
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 8,
+      "within": true,
+      "accuracy": 0.6597222222222222,
+      "macro_f1": 0.6611548386793518,
+      "cohen_kappa": 0.5462962962962963,
+      "mcc": 0.5482474710690566
+    },
+    {
+      "seed": 3,
+      "train_subject": 8,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3125,
+      "macro_f1": 0.22341009924723496,
+      "cohen_kappa": 0.08333333333333337,
+      "mcc": 0.12266630321149191
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.10256410256410256,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2465277777777778,
+      "macro_f1": 0.0988857938718663,
+      "cohen_kappa": -0.004629629629629539,
+      "mcc": -0.04819626927118799
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.2638888888888889,
+      "macro_f1": 0.12876623376623378,
+      "cohen_kappa": 0.01851851851851849,
+      "mcc": 0.06877666116113097
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.10712786660052658,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.04819626927118799
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.1,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.4027777777777778,
+      "macro_f1": 0.3866922710976935,
+      "cohen_kappa": 0.20370370370370372,
+      "mcc": 0.20928547368995803
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.1005586592178771,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.15784308103975536,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.057066376226725245
+    },
+    {
+      "seed": 3,
+      "train_subject": 9,
+      "test_subject": 9,
+      "within": true,
+      "accuracy": 0.6770833333333334,
+      "macro_f1": 0.6744019037221665,
+      "cohen_kappa": 0.5694444444444444,
+      "mcc": 0.5699026908968916
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 1,
+      "within": true,
+      "accuracy": 0.6805555555555556,
+      "macro_f1": 0.6646075099287174,
+      "cohen_kappa": 0.5740740740740741,
+      "mcc": 0.5836764602060228
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.22910599641450932,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.12249091219488328
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.5625,
+      "macro_f1": 0.5268181451660061,
+      "cohen_kappa": 0.41666666666666663,
+      "mcc": 0.4374011339639097
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.1576753430417001,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.05015961523709915
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2673611111111111,
+      "macro_f1": 0.13501670308763689,
+      "cohen_kappa": 0.02314814814814814,
+      "mcc": 0.06793766725159661
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.2198298421467798,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.11869939202535758
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.25760582090758477,
+      "cohen_kappa": 0.11111111111111116,
+      "mcc": 0.1542507560540002
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3472222222222222,
+      "macro_f1": 0.27092490842490846,
+      "cohen_kappa": 0.12962962962962965,
+      "mcc": 0.15382409696657234
+    },
+    {
+      "seed": 4,
+      "train_subject": 1,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3715277777777778,
+      "macro_f1": 0.3026309842255408,
+      "cohen_kappa": 0.1620370370370371,
+      "mcc": 0.20195650259412862
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.2916666666666667,
+      "macro_f1": 0.25671955065037444,
+      "cohen_kappa": 0.05555555555555558,
+      "mcc": 0.05949202457518872
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 2,
+      "within": true,
+      "accuracy": 0.5659722222222222,
+      "macro_f1": 0.5590493010896209,
+      "cohen_kappa": 0.4212962962962963,
+      "mcc": 0.42326725995086606
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.27422115355657234,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.13378917511889904
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2777777777777778,
+      "macro_f1": 0.23850794631643504,
+      "cohen_kappa": 0.03703703703703709,
+      "mcc": 0.042742873908534644
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.23958333333333334,
+      "macro_f1": 0.20700800915331807,
+      "cohen_kappa": -0.01388888888888884,
+      "mcc": -0.014928144636986143
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3611111111111111,
+      "macro_f1": 0.3276673174293527,
+      "cohen_kappa": 0.14814814814814814,
+      "mcc": 0.1535050281871451
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.21062086355287438,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.04169659364869822
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3680555555555556,
+      "macro_f1": 0.3574019347239161,
+      "cohen_kappa": 0.15740740740740744,
+      "mcc": 0.1623887831995765
+    },
+    {
+      "seed": 4,
+      "train_subject": 2,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.21190872751499001,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.04921671486603184
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.4305555555555556,
+      "macro_f1": 0.3871951700737828,
+      "cohen_kappa": 0.2407407407407407,
+      "mcc": 0.2886818072358908
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2569444444444444,
+      "macro_f1": 0.1361607142857143,
+      "cohen_kappa": 0.0092592592592593,
+      "mcc": 0.020515248496555456
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 3,
+      "within": true,
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8535620300751879,
+      "cohen_kappa": 0.8055555555555556,
+      "mcc": 0.8090354622757697
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.19823291462635725,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.09286306543538385
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2708333333333333,
+      "macro_f1": 0.17864583333333334,
+      "cohen_kappa": 0.02777777777777779,
+      "mcc": 0.03450327796711771
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.2326986189266943,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.10657417043250196
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.20498638716867212,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.4305555555555556,
+      "macro_f1": 0.3991527074301124,
+      "cohen_kappa": 0.2407407407407407,
+      "mcc": 0.2630240784322916
+    },
+    {
+      "seed": 4,
+      "train_subject": 3,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.4409722222222222,
+      "macro_f1": 0.3898928194120863,
+      "cohen_kappa": 0.25462962962962965,
+      "mcc": 0.2766527497829232
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.31896397287602923,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.1057026744791164
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3506944444444444,
+      "macro_f1": 0.3243377385359628,
+      "cohen_kappa": 0.1342592592592593,
+      "mcc": 0.137781602973895
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4583333333333333,
+      "macro_f1": 0.39148401020815426,
+      "cohen_kappa": 0.2777777777777778,
+      "mcc": 0.31471681833982956
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 4,
+      "within": true,
+      "accuracy": 0.5833333333333334,
+      "macro_f1": 0.5775649022886318,
+      "cohen_kappa": 0.4444444444444444,
+      "mcc": 0.4505031926062339
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.29675567945591735,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.08139796701117465
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3715277777777778,
+      "macro_f1": 0.31181670669565625,
+      "cohen_kappa": 0.1620370370370371,
+      "mcc": 0.18435484941434863
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3784722222222222,
+      "macro_f1": 0.3749434786738862,
+      "cohen_kappa": 0.17129629629629628,
+      "mcc": 0.17243936894314857
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.2906131212183948,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.15441675310879607
+    },
+    {
+      "seed": 4,
+      "train_subject": 4,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3229166666666667,
+      "macro_f1": 0.26748385163953176,
+      "cohen_kappa": 0.09722222222222221,
+      "mcc": 0.11250152466428494
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.375,
+      "macro_f1": 0.37098280014565277,
+      "cohen_kappa": 0.16666666666666663,
+      "mcc": 0.16787732649512208
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.3854166666666667,
+      "macro_f1": 0.3452708834730064,
+      "cohen_kappa": 0.18055555555555558,
+      "mcc": 0.19084314387406462
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4270833333333333,
+      "macro_f1": 0.4078131422841625,
+      "cohen_kappa": 0.23611111111111116,
+      "mcc": 0.24097521299959102
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3368055555555556,
+      "macro_f1": 0.3183003464543712,
+      "cohen_kappa": 0.1157407407407407,
+      "mcc": 0.12189394788706001
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 5,
+      "within": true,
+      "accuracy": 0.6180555555555556,
+      "macro_f1": 0.611373568807916,
+      "cohen_kappa": 0.4907407407407407,
+      "mcc": 0.493092597669264
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.3108126057886823,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.10314835960394916
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.5659722222222222,
+      "macro_f1": 0.5429309076146254,
+      "cohen_kappa": 0.4212962962962963,
+      "mcc": 0.43963661248454866
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.3263888888888889,
+      "macro_f1": 0.30723910571903,
+      "cohen_kappa": 0.10185185185185186,
+      "mcc": 0.10643306349140796
+    },
+    {
+      "seed": 4,
+      "train_subject": 5,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.24645156570090723,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.04480690623901107
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.233786952557206,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.19219638386305052,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3541666666666667,
+      "macro_f1": 0.2972424436820722,
+      "cohen_kappa": 0.13888888888888884,
+      "mcc": 0.17668009977269394
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2743055555555556,
+      "macro_f1": 0.17021887786559048,
+      "cohen_kappa": 0.03240740740740744,
+      "mcc": 0.0532023345696625
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.14321862348178138,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 6,
+      "within": true,
+      "accuracy": 0.4583333333333333,
+      "macro_f1": 0.4536191282909071,
+      "cohen_kappa": 0.2777777777777778,
+      "mcc": 0.27933124355548866
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2361111111111111,
+      "macro_f1": 0.17022518108607493,
+      "cohen_kappa": -0.0185185185185186,
+      "mcc": -0.026773078012199865
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.2604166666666667,
+      "macro_f1": 0.23873858000911807,
+      "cohen_kappa": 0.01388888888888884,
+      "mcc": 0.015179709989857071
+    },
+    {
+      "seed": 4,
+      "train_subject": 6,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.34375,
+      "macro_f1": 0.3053074243531405,
+      "cohen_kappa": 0.125,
+      "mcc": 0.13437576278896468
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.5173611111111112,
+      "macro_f1": 0.49387073269064596,
+      "cohen_kappa": 0.3564814814814815,
+      "mcc": 0.3817616036270008
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.2796178898983681,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.04209861221483644
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3923611111111111,
+      "macro_f1": 0.30075813901092713,
+      "cohen_kappa": 0.18981481481481477,
+      "mcc": 0.23748072467773287
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.3784722222222222,
+      "macro_f1": 0.33899627823172096,
+      "cohen_kappa": 0.17129629629629628,
+      "mcc": 0.19091069577396336
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.4305555555555556,
+      "macro_f1": 0.31429726130167535,
+      "cohen_kappa": 0.2407407407407407,
+      "mcc": 0.28689682463444577
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.16071162922492496,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.10019501341827017
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 7,
+      "within": true,
+      "accuracy": 0.625,
+      "macro_f1": 0.6154748595053985,
+      "cohen_kappa": 0.5,
+      "mcc": 0.5198228518814385
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.28125,
+      "macro_f1": 0.15692771084337348,
+      "cohen_kappa": 0.04166666666666663,
+      "mcc": 0.08612538776448218
+    },
+    {
+      "seed": 4,
+      "train_subject": 7,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.11399217221135029,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.010239056936182715
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.3298611111111111,
+      "macro_f1": 0.2208094692630775,
+      "cohen_kappa": 0.10648148148148151,
+      "mcc": 0.15089349458613754
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2951388888888889,
+      "macro_f1": 0.1804987212276215,
+      "cohen_kappa": 0.06018518518518523,
+      "mcc": 0.14498241444227794
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.4236111111111111,
+      "macro_f1": 0.38347909423786175,
+      "cohen_kappa": 0.2314814814814815,
+      "mcc": 0.2455631591272238
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.23958333333333334,
+      "macro_f1": 0.15533268101761252,
+      "cohen_kappa": -0.01388888888888884,
+      "mcc": -0.020026720118795728
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.2604166666666667,
+      "macro_f1": 0.14993606138107415,
+      "cohen_kappa": 0.01388888888888884,
+      "mcc": 0.03345748025591029
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.25222037569688577,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.004656883516818788
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.21469295034060748,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.09708745013629781
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 8,
+      "within": true,
+      "accuracy": 0.5902777777777778,
+      "macro_f1": 0.591054039286112,
+      "cohen_kappa": 0.4537037037037037,
+      "mcc": 0.45626328191638377
+    },
+    {
+      "seed": 4,
+      "train_subject": 8,
+      "test_subject": 9,
+      "within": false,
+      "accuracy": 0.3090277777777778,
+      "macro_f1": 0.21761288734424444,
+      "cohen_kappa": 0.07870370370370372,
+      "mcc": 0.10658673814132308
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 1,
+      "within": false,
+      "accuracy": 0.2569444444444444,
+      "macro_f1": 0.11656085849634237,
+      "cohen_kappa": 0.0092592592592593,
+      "mcc": 0.02284185791122005
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 2,
+      "within": false,
+      "accuracy": 0.2534722222222222,
+      "macro_f1": 0.1199217689304207,
+      "cohen_kappa": 0.00462962962962965,
+      "mcc": 0.015405595866560868
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 3,
+      "within": false,
+      "accuracy": 0.3055555555555556,
+      "macro_f1": 0.20987345429416926,
+      "cohen_kappa": 0.07407407407407407,
+      "mcc": 0.1263943727318073
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 4,
+      "within": false,
+      "accuracy": 0.2569444444444444,
+      "macro_f1": 0.12906976744186047,
+      "cohen_kappa": 0.0092592592592593,
+      "mcc": 0.02547512334865661
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 5,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.10669274228596264,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 6,
+      "within": false,
+      "accuracy": 0.3993055555555556,
+      "macro_f1": 0.3947558479526503,
+      "cohen_kappa": 0.19907407407407407,
+      "mcc": 0.20167466841421539
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 7,
+      "within": false,
+      "accuracy": 0.2569444444444444,
+      "macro_f1": 0.12574045089592828,
+      "cohen_kappa": 0.0092592592592593,
+      "mcc": 0.02547512334865661
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 8,
+      "within": false,
+      "accuracy": 0.25,
+      "macro_f1": 0.1394883903974813,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "train_subject": 9,
+      "test_subject": 9,
+      "within": true,
+      "accuracy": 0.6423611111111112,
+      "macro_f1": 0.6420096254453358,
+      "cohen_kappa": 0.5231481481481481,
+      "mcc": 0.5233416776714819
+    }
+  ]
+}

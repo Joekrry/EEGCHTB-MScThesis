@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eegchtb"
+description = "Assessing the Galea Headset on a Benchmark of Deep Learning Architectures and Pre-processing Pipelines for EEG Motor-Imagery Task Classification"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Joe Kerry" }]
+dynamic = ["version"]
+
+dependencies = [
+    "torch>=2.2",
+    "braindecode>=0.8",
+    "mne>=1.6",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "PyYAML>=6.0",
+    "pandas>=2.1",
+    "tqdm>=4.66",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+eegchtb-run = "eegchtb.experiment:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "eegchtb.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["eegchtb*"]

@@ -1,0 +1,379 @@
+{
+  "cell": "bci_iv_2b_deep_grf_net_subject_specific_galea",
+  "session": "recording_2026-08-25_D",
+  "n_snapshots": 45,
+  "mean": {
+    "accuracy": 0.4857142857142857,
+    "macro_f1": 0.3876915728463715,
+    "cohen_kappa": -0.028571428571428567,
+    "mcc": -0.03160055686036445
+  },
+  "std": {
+    "accuracy": 0.04902681019517619,
+    "macro_f1": 0.07492744161225379,
+    "cohen_kappa": 0.0980536203903524,
+    "mcc": 0.11647965013695949
+  },
+  "per_run": [
+    {
+      "seed": 0,
+      "subject": 1,
+      "accuracy": 0.42857142857142855,
+      "macro_f1": 0.37777777777777777,
+      "cohen_kappa": -0.1428571428571428,
+      "mcc": -0.17407765595569785
+    },
+    {
+      "seed": 0,
+      "subject": 2,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "subject": 3,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "subject": 4,
+      "accuracy": 0.5,
+      "macro_f1": 0.49743589743589745,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "subject": 5,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "subject": 6,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "subject": 7,
+      "accuracy": 0.5714285714285714,
+      "macro_f1": 0.5714285714285714,
+      "cohen_kappa": 0.1428571428571429,
+      "mcc": 0.14285714285714285
+    },
+    {
+      "seed": 0,
+      "subject": 8,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 0,
+      "subject": 9,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 1,
+      "accuracy": 0.5,
+      "macro_f1": 0.47593582887700536,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 2,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 3,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 4,
+      "accuracy": 0.5,
+      "macro_f1": 0.49743589743589745,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 5,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 6,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 7,
+      "accuracy": 0.5714285714285714,
+      "macro_f1": 0.5714285714285714,
+      "cohen_kappa": 0.1428571428571429,
+      "mcc": 0.14285714285714285
+    },
+    {
+      "seed": 1,
+      "subject": 8,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 1,
+      "subject": 9,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "subject": 1,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "subject": 2,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "subject": 3,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "subject": 4,
+      "accuracy": 0.42857142857142855,
+      "macro_f1": 0.3,
+      "cohen_kappa": -0.1428571428571428,
+      "mcc": -0.2773500981126146
+    },
+    {
+      "seed": 2,
+      "subject": 5,
+      "accuracy": 0.5,
+      "macro_f1": 0.47593582887700536,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "subject": 6,
+      "accuracy": 0.5,
+      "macro_f1": 0.4269005847953216,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "subject": 7,
+      "accuracy": 0.5,
+      "macro_f1": 0.49743589743589745,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 2,
+      "subject": 8,
+      "accuracy": 0.42857142857142855,
+      "macro_f1": 0.37777777777777777,
+      "cohen_kappa": -0.1428571428571428,
+      "mcc": -0.17407765595569785
+    },
+    {
+      "seed": 2,
+      "subject": 9,
+      "accuracy": 0.35714285714285715,
+      "macro_f1": 0.35384615384615387,
+      "cohen_kappa": -0.2857142857142858,
+      "mcc": -0.28867513459481287
+    },
+    {
+      "seed": 3,
+      "subject": 1,
+      "accuracy": 0.5,
+      "macro_f1": 0.47593582887700536,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "subject": 2,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "subject": 3,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "subject": 4,
+      "accuracy": 0.42857142857142855,
+      "macro_f1": 0.37777777777777777,
+      "cohen_kappa": -0.1428571428571428,
+      "mcc": -0.17407765595569785
+    },
+    {
+      "seed": 3,
+      "subject": 5,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "subject": 6,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "subject": 7,
+      "accuracy": 0.5,
+      "macro_f1": 0.49743589743589745,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 3,
+      "subject": 8,
+      "accuracy": 0.42857142857142855,
+      "macro_f1": 0.41666666666666663,
+      "cohen_kappa": -0.1428571428571428,
+      "mcc": -0.14907119849998599
+    },
+    {
+      "seed": 3,
+      "subject": 9,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "subject": 1,
+      "accuracy": 0.42857142857142855,
+      "macro_f1": 0.37777777777777777,
+      "cohen_kappa": -0.1428571428571428,
+      "mcc": -0.17407765595569785
+    },
+    {
+      "seed": 4,
+      "subject": 2,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "subject": 3,
+      "accuracy": 0.5714285714285714,
+      "macro_f1": 0.475,
+      "cohen_kappa": 0.1428571428571429,
+      "mcc": 0.2773500981126146
+    },
+    {
+      "seed": 4,
+      "subject": 4,
+      "accuracy": 0.5,
+      "macro_f1": 0.4269005847953216,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "subject": 5,
+      "accuracy": 0.35714285714285715,
+      "macro_f1": 0.35384615384615387,
+      "cohen_kappa": -0.2857142857142858,
+      "mcc": -0.28867513459481287
+    },
+    {
+      "seed": 4,
+      "subject": 6,
+      "accuracy": 0.35714285714285715,
+      "macro_f1": 0.3262032085561497,
+      "cohen_kappa": -0.2857142857142858,
+      "mcc": -0.31622776601683794
+    },
+    {
+      "seed": 4,
+      "subject": 7,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "cohen_kappa": 0.0,
+      "mcc": 0.0
+    },
+    {
+      "seed": 4,
+      "subject": 8,
+      "accuracy": 0.42857142857142855,
+      "macro_f1": 0.42857142857142855,
+      "cohen_kappa": -0.1428571428571428,
+      "mcc": -0.14285714285714285
+    },
+    {
+      "seed": 4,
+      "subject": 9,
+      "accuracy": 0.5714285714285714,
+      "macro_f1": 0.5333333333333333,
+      "cohen_kappa": 0.1428571428571429,
+      "mcc": 0.17407765595569785
+    }
+  ]
+}

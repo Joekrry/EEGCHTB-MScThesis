@@ -1,0 +1,81 @@
+{
+  "cell": "bci_iv_2b_standard_eeg_conformer_subject_specific_galea_seed2",
+  "n_subjects": 9,
+  "metrics_mean": {
+    "accuracy": 0.8023313492063493,
+    "macro_f1": 0.8010285083036708,
+    "cohen_kappa": 0.6046626984126985,
+    "mcc": 0.6099219171838213
+  },
+  "metrics_sd": {
+    "accuracy": 0.14954694929928058,
+    "macro_f1": 0.15060408438383938,
+    "cohen_kappa": 0.2990938985985611,
+    "mcc": 0.29966460146625096
+  },
+  "per_subject": [
+    {
+      "subject": "S01",
+      "accuracy": 0.765625,
+      "macro_f1": 0.7627872498146775,
+      "cohen_kappa": 0.53125,
+      "mcc": 0.5444357229372963
+    },
+    {
+      "subject": "S02",
+      "accuracy": 0.5428571428571428,
+      "macro_f1": 0.5394736842105263,
+      "cohen_kappa": 0.08571428571428574,
+      "mcc": 0.08700221858486124
+    },
+    {
+      "subject": "S03",
+      "accuracy": 0.546875,
+      "macro_f1": 0.5445219935015854,
+      "cohen_kappa": 0.09375,
+      "mcc": 0.0947339030380734
+    },
+    {
+      "subject": "S04",
+      "accuracy": 0.984375,
+      "macro_f1": 0.9843748474106193,
+      "cohen_kappa": 0.96875,
+      "mcc": 0.9687689214527787
+    },
+    {
+      "subject": "S05",
+      "accuracy": 0.94375,
+      "macro_f1": 0.9437302176546443,
+      "cohen_kappa": 0.8875,
+      "mcc": 0.8881246823594386
+    },
+    {
+      "subject": "S06",
+      "accuracy": 0.846875,
+      "macro_f1": 0.8452290471913217,
+      "cohen_kappa": 0.69375,
+      "mcc": 0.708993843127882
+    },
+    {
+      "subject": "S07",
+      "accuracy": 0.859375,
+      "macro_f1": 0.8593076765248997,
+      "cohen_kappa": 0.71875,
+      "mcc": 0.7194388552528264
+    },
+    {
+      "subject": "S08",
+      "accuracy": 0.84375,
+      "macro_f1": 0.8428661219358893,
+      "cohen_kappa": 0.6875,
+      "mcc": 0.6953673889582388
+    },
+    {
+      "subject": "S09",
+      "accuracy": 0.8875,
+      "macro_f1": 0.8869657364888732,
+      "cohen_kappa": 0.775,
+      "mcc": 0.7824317189429953
+    }
+  ]
+}

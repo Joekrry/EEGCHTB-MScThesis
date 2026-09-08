@@ -1,0 +1,13 @@
+# Standard modulation: the common motor-imagery broadband cleanup, a 4-40 Hz
+# band-pass, plus per-channel standardisation so amplitude scale is comparable across
+# channels and subjects. This is close to what the EEGNet and EEG-Conformer
+# reference papers themselves used, so it is the level the published baselines
+# should be reproducible on.
+
+name: standard
+steps:
+  - name: bandpass
+    params:
+      l_freq: 4.0
+      h_freq: 40.0
+  - name: standardize

@@ -1,0 +1,91 @@
+{
+  "protocol": {
+    "dataset": "bci_iv_2a",
+    "preprocessing": "standard",
+    "evaluation": "subject_specific (train session T, test session E)",
+    "model": "eegnet",
+    "kernel_length": "sfreq/2 (125 at 250 Hz)",
+    "seed": 1,
+    "epochs": 750,
+    "early_stopping": false,
+    "batch_size": 64,
+    "val_fraction": 0.0
+  },
+  "per_subject": [
+    {
+      "subject": 1,
+      "accuracy": 0.71875,
+      "macro_f1": 0.7164789290616232,
+      "cohen_kappa": 0.625,
+      "mcc": 0.6336561832928389
+    },
+    {
+      "subject": 2,
+      "accuracy": 0.4965277777777778,
+      "macro_f1": 0.460815946490328,
+      "cohen_kappa": 0.3287037037037037,
+      "mcc": 0.33751598830299284
+    },
+    {
+      "subject": 3,
+      "accuracy": 0.78125,
+      "macro_f1": 0.7768909906541115,
+      "cohen_kappa": 0.7083333333333333,
+      "mcc": 0.7147153115040381
+    },
+    {
+      "subject": 4,
+      "accuracy": 0.5173611111111112,
+      "macro_f1": 0.5195998445998447,
+      "cohen_kappa": 0.3564814814814815,
+      "mcc": 0.3748856615813137
+    },
+    {
+      "subject": 5,
+      "accuracy": 0.4409722222222222,
+      "macro_f1": 0.43362437505705964,
+      "cohen_kappa": 0.25462962962962965,
+      "mcc": 0.2587297233202226
+    },
+    {
+      "subject": 6,
+      "accuracy": 0.4409722222222222,
+      "macro_f1": 0.43324393101394554,
+      "cohen_kappa": 0.25462962962962965,
+      "mcc": 0.25671382076913074
+    },
+    {
+      "subject": 7,
+      "accuracy": 0.5972222222222222,
+      "macro_f1": 0.5785637973137974,
+      "cohen_kappa": 0.4629629629629629,
+      "mcc": 0.48969329952014923
+    },
+    {
+      "subject": 8,
+      "accuracy": 0.6944444444444444,
+      "macro_f1": 0.6970805940404455,
+      "cohen_kappa": 0.5925925925925926,
+      "mcc": 0.593413530226855
+    },
+    {
+      "subject": 9,
+      "accuracy": 0.7083333333333334,
+      "macro_f1": 0.7083099516066593,
+      "cohen_kappa": 0.6111111111111112,
+      "mcc": 0.6130754530091292
+    }
+  ],
+  "mean": {
+    "accuracy": 0.599537037037037,
+    "macro_f1": 0.5916231510930906,
+    "cohen_kappa": 0.4660493827160494,
+    "mcc": 0.47471099683629675
+  },
+  "std": {
+    "accuracy": 0.12280523476575034,
+    "macro_f1": 0.12787417344662927,
+    "cohen_kappa": 0.16374031302100042,
+    "mcc": 0.16305533284542648
+  }
+}
