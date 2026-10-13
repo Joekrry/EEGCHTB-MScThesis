@@ -1,3 +1,5 @@
+### Read my paper [here!](./Joe-kerry_dissertation_paper.pdf)
+
 # Note from me
 This is my MSc thesis project and can't be forked from my university account, I am porting this to my main GitHub account because I like to have ownership of my work and this somewhat immortalises it.
 
